@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "name": "Slime",
+        "level": 2,
+        "race": "Amorfo",
+        "hp": 4,
+        "mp": 0,
+        "image":"generic.png"
+    },
+    {
+        "id": 1,
+        "name": "Arcanite",
+        "level": 4,
+        "race": "Amorfo",
+        "hp": 8,
+        "mp": 2,
+        "image":"generic.png"
+    },
+    {
+        "id": 2,
+        "name": "Goblin",
+        "level": 4,
+        "race": "Humanóide",
+        "hp": 8,
+        "mp": 2,
+        "image":"generic.png"
+    },
+    {
+        "id": 3,
+        "name": "Kobold",
+        "level": 4,
+        "race": "Besta",
+        "hp": 8,
+        "mp": 2,
+        "image":"generic.png"
+    },
+    {
+        "id": 4,
+        "name": "Renegado",
+        "level": 4,
+        "race": "Humanóide",
+        "hp": 8,
+        "mp": 2,
+        "image":"generic.png"
+    },
+    {
+        "id": 5,
+        "name": "Esqueleto",
+        "level": 4,
+        "race": "Morto-Vivo",
+        "hp": 8,
+        "mp": 2,
+        "image":"generic.png"
+    }
+]
