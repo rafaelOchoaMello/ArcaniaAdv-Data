@@ -1,6 +1,6 @@
 div.cardContainer{
     width: 180px;
-    height: 250px;
+    height: 260px;
 
     margin:15px;
     padding: 0px;
@@ -36,16 +36,30 @@ div.cardHeader, div.cardHeader > p{
 }
 
 div.cardBody{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     background:#fff;
 }
 
-div.cardBody > img{
-    max-width: 70px;
-    max-height: 100px;
+div.cardImage{
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    width: 100px;
+    height: 120px;
+
+    background-color: #fff;
+}
+
+div.cardImage > img {
+    align-self: center;
+    max-width: 100px;
+    max-height: 120px;
     background-color: #fff;
 }
 

@@ -16,8 +16,10 @@ function Card({name, level, race, hp, mp, image}) {
                 <div className="cardHeader">
                     <p>{name}</p>
                 </div>
-                <div className="cardBody">
+                <div className="cardImage">
                     <img src={window.location.origin + `/assets/monsters/${image}`} alt="" />
+                </div>
+                <div className="cardBody">
                     <p> <strong>{level}</strong> </p>
                     <p>{race}</p>
                     <p>{hp}/{mp}</p>
