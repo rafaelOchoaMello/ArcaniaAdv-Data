@@ -52,5 +52,14 @@
         "hp": 8,
         "mp": 2,
         "image":"squeleton.png"
+    },
+    {
+        "id": 6,
+        "name": "Didi",
+        "level": 4,
+        "race": "Morto-Vivo",
+        "hp": 8,
+        "mp": 2,
+        "image":"squeleton.png"
     }
 ]

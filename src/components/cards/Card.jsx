@@ -9,20 +9,22 @@ a ser carregada */
 import React from 'react';
 import './Card.css';
 
-function Card({name, level, race, hp, mp, image}) {
+function Card(props) {
+    const id = parseInt(props.id) + 1;
+
     return (
         <>
             <div className="cardContainer">
                 <div className="cardHeader">
-                    <p>{name}</p>
+                    <p>#{id} - {props.name}</p>
                 </div>
                 <div className="cardImage">
-                    <img src={window.location.origin + `/assets/monsters/${image}`} alt="" />
+                    <img src={window.location.origin + `/assets/monsters/${props.image}`} alt="" />
                 </div>
                 <div className="cardBody">
-                    <p> <strong>{level}</strong> </p>
-                    <p>{race}</p>
-                    <p>{hp}/{mp}</p>
+                    <p> <strong>{props.level}</strong> </p>
+                    <p>{props.race}</p>
+                    <p>{props.hp}/{props.mp}</p>
                 </div>
             </div>
         </>
