@@ -1,0 +1,38 @@
+#monsterModal-container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;  
+    background: rgba(0, 0, 0, 0.705);   
+
+}
+
+div.monsterModal-panel{
+    width: 750px;
+    height: 350px;
+    overflow-y: scroll;
+
+    z-index: 1;
+    position: absolute;
+
+    border: 2px solid rgb(39, 48, 60);
+    box-sizing: border-box;
+
+    background-color: rgb(243, 243, 243);    
+}
+
+div.monsterModal-content{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+div.monsterModal-content > p{
+    margin-top: 15px;
+}
