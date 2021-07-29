@@ -13,21 +13,8 @@ function MonsterModal(props) {
                     <div className="monsterModal-content">
                         <h1>{props.data.name}</h1>
                         <img src={window.location.origin + `/assets/monsters/${props.data.image}`} alt="" />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure eligendi commodi
-                            sapiente dicta consectetur, necessitatibus vero temporibus animi rerum quis accusantium,
-                            similique recusandae amet, tempora ad mollitia quae cum!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure eligendi commodi
-                            sapiente dicta consectetur, necessitatibus vero temporibus animi rerum quis accusantium,
-                            similique recusandae amet, tempora ad mollitia quae cum!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iure eligendi commodi
-                            sapiente dicta consectetur, necessitatibus vero temporibus animi rerum quis accusantium,
-                            similique recusandae amet, tempora ad mollitia quae cum!
-                        </p>
+                        <p>Dano-F:{props.data.damage} | Defesa-F:{props.data.defense}</p>
+                        <p>Dano-M:{props.data.magicDamage} | Defesa-M:{props.data.magicDefense}</p>
                     </div>
                 </div>
             </div>

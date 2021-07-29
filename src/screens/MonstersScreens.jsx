@@ -17,6 +17,10 @@ function MonsterScreen(props) {
                         hp={monster.hp}
                         mp={monster.mp}
                         image={monster.image}
+                        damage={monster.damage}
+                        defense={monster.defense}
+                        magicDamage={monster.magicDamage}
+                        magicDefense={monster.magicDefense}
                     />
                 })
             }
