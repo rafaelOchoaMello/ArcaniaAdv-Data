@@ -1,15 +1,14 @@
 #monsterModal-container{
-    width: 100vw;
-    height: 100vh;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 
-    position: absolute;  
-    background: rgba(0, 0, 0, 0.705);   
-
+    position: fixed;
+    width: 100%;  
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 div.monsterModal-panel{

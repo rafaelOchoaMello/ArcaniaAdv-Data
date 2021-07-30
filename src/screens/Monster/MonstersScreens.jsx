@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../../components/Monster/cards/Card';
+import Card from '../../components/monster/cards/Card';
 import MonsterData from '../../data/monsters.json';
 
 import './MonsterScreen.css';
