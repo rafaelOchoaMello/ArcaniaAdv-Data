@@ -1,5 +1,7 @@
 <h1 align="center">Arcania Adv - Data </h1>
+<p align="center">
 <image align="center" src="./public/assets/readme/DwarfPost.png">
+</p>
 <p align="center"> Rafael Ochôa Mello - rafaelochoamello@gmail.com </p>
 
 <p align="center">
