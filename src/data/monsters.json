@@ -6,7 +6,11 @@
         "race": "Amorfo",
         "hp": 4,
         "mp": 0,
-        "image":"generic.png"
+        "image":"generic.png",
+        "damage": 2,
+        "defense": 1,
+        "magicDamage":1,
+        "magicDefense":1
     },
     {
         "id": 1,
@@ -15,34 +19,50 @@
         "race": "Amorfo",
         "hp": 8,
         "mp": 2,
-        "image":"generic.png"
+        "image":"Arcanito.png",
+        "damage": 1,
+        "defense": 2,
+        "magicDamage":2,
+        "magicDefense":4
     },
     {
         "id": 2,
-        "name": "Goblin",
+        "name": "Anão (Montanha)",
         "level": 4,
         "race": "Humanóide",
         "hp": 8,
         "mp": 2,
-        "image":"generic.png"
+        "image":"dwarf1.png",
+        "damage": 10,
+        "defense": 10,
+        "magicDamage":10,
+        "magicDefense":10
     },
     {
         "id": 3,
-        "name": "Kobold",
+        "name": "Anão (Colina)",
         "level": 4,
         "race": "Besta",
         "hp": 8,
         "mp": 2,
-        "image":"generic.png"
+        "image":"dwarf2.png",
+        "damage": 10,
+        "defense": 10,
+        "magicDamage":10,
+        "magicDefense":10
     },
     {
         "id": 4,
-        "name": "Renegado",
+        "name": "Anão (Floresta)",
         "level": 4,
         "race": "Humanóide",
         "hp": 8,
         "mp": 2,
-        "image":"generic.png"
+        "image":"dwarf3.png",
+        "damage": 10,
+        "defense": 10,
+        "magicDamage":10,
+        "magicDefense":10
     },
     {
         "id": 5,
@@ -51,6 +71,10 @@
         "race": "Morto-Vivo",
         "hp": 8,
         "mp": 2,
-        "image":"generic.png"
-    }
+        "image":"squeleton.png",
+        "damage": 10,
+        "defense": 10,
+        "magicDamage":10,
+        "magicDefense":10
+    }   
 ]

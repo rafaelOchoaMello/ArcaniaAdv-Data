@@ -1,0 +1,19 @@
+Log Projeto Arcania React
+
+- Dia 1 (23/jul/2021):
+	- Iniciar o projeto React
+	- Criar um JSON inicial contendo os dados a serem 
+	carregados no card.
+	- Criar a tela e os componentes de card.
+
+- Dia 2 (24/jul/2021):
+	- Ajustado a disposição dos elementos dentro do card, 
+	agora o posicionamento das informações do cardBody não
+	mais variam de acordo com o tamanho da imagem.
+
+
+- Dia 3 (26/jul/2021):
+	- Implementado estilização simple para o hover, contendo
+	um box-shadow levemente escurecido e um cursor click
+
+	
