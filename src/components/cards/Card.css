@@ -76,6 +76,7 @@ div.cardImage{
 
 div.cardImage > img {
     align-self: center;
+    min-width: 50px;
     max-width: 100px;
     max-height: 120px;
     background-color: #fff;
