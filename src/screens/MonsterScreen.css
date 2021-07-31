@@ -1,6 +1,0 @@
-div.monsterScreen{
-    display: flex;
-    flex-flow:row wrap;
-    max-width: 850px;
-    border: 1px solid red;
-}

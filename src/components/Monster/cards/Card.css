@@ -1,13 +1,15 @@
 button.cardButton{
     border:none;
+    width: 180px;
+    height: 260px;
+    
+    margin:10px;
+    padding: 0px;
 }
 
 div.cardContainer{
     width: 180px;
     height: 260px;
-
-    margin:15px;
-    padding: 0px;
 
     display: flex;
     flex-flow: column wrap;
