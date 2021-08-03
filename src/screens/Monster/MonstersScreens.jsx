@@ -15,6 +15,7 @@ function MonsterScreen(props) {
                         name={monster.name}
                         level={monster.level}
                         race={monster.race}
+                        element={monster.element}
                         hp={monster.hp}
                         mp={monster.mp}
                         image={monster.image}

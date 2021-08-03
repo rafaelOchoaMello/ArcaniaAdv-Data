@@ -35,3 +35,7 @@ div.monsterModal-content{
 div.monsterModal-content > p{
     margin-top: 15px;
 }
+
+div.monsterModal-damageArea{
+    margin: 10px 0px 10px 0px;
+}
