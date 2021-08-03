@@ -16,8 +16,10 @@ function MonsterModal(props) {
                         <p>{props.data.level}</p>
                         <p>{props.data.race}</p>
                         <p>{props.data.element}</p>
-                        <p>Dano-F:{props.data.damage} | Defesa-F:{props.data.defense}</p>
-                        <p>Dano-M:{props.data.magicDamage} | Defesa-M:{props.data.magicDefense}</p>
+                        <div className="monsterModal-damageArea">
+                            <p>Dano-F:{props.data.damage} | Defesa-F:{props.data.defense}</p>
+                            <p>Dano-M:{props.data.magicDamage} | Defesa-M:{props.data.magicDefense}</p>
+                        </div>
                     </div>
                 </div>
             </div>
