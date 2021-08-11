@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "Kimura",
+        "job": "Ferreiro"        
+    },
+    {
+        "id": 1,
+        "name": "Barbara",
+        "job": "Alquimista"        
+    },
+    {
+        "id": 2,
+        "name": "Bia",
+        "job": "Arquiteta"        
+    },
+    {
+        "id": 3,
+        "name": "Gabriel",
+        "job": "Entalhador de Runas"        
+    }, 
+    {
+        "id": 4,
+        "name": "Dani",
+        "job": "Dama das cartas"        
+    },
+    {
+        "id": 5,
+        "name": "Vini",
+        "job": "Encantador"        
+    },
+    {
+        "id": 6,
+        "name": "Benja",
+        "job": "Bardo"        
+    },
+    {
+        "id": 7,
+        "name": "JL",
+        "job": "Historiador"        
+    }
+]
